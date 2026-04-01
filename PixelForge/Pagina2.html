@@ -8,6 +8,15 @@
   <link rel="icon" href="https://media.licdn.com/dms/image/v2/D560BAQHDXcfOzwt3ZA/company-logo_200_200/B56ZmCP2l6J8AM-/0/1758826819010?e=2147483647&v=beta&
     t=MQxZ72UwMvYbw4hMqx8BuHsMI9z-jPvn3bUZZUJ6uuU">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+  <!-- ICON DO PIXELFORGE -->
+  <link rel="icon"
+    href="https://media.licdn.com/dms/image/v2/D560BAQHDXcfOzwt3ZA/company-logo_200_200/B56ZmCP2l6J8AM-/0/1758826819010?e=2147483647&v=beta&t=MQxZ72UwMvYbw4hMqx8BuHsMI9z-jPvn3bUZZUJ6uuU" />
+
   <!-- IMPORTAR BOOTSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -16,100 +25,114 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- IMPORTANDO O CSS -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css" <body>
+  <header class="topo">
+    <div class="slogan">
+      <h1>PixelForge</h1>
+      <text>Forjando diversão, pixel por pixel</text>
+    </div>
 
-</head>
-
-<div class="Slogan">
-  <h1>PixelForge</h1>
-  <text>Forjando diversão, pixel por pixel</text>
-</div>
-
-
-<body>
-      <nav>
+    <nav class="navegacao">
+      <ul>
         <ol>
-          <li>
-             <i class="fa-solid fa-house"></i>
-            <a href="./Index.html">HOME</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-gamepad"></i>
-            <a href="./Pagina2.html">NOSSOS JOGOS</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-camera"></i>
-            <a href="./Pagina3.html">PORTFÒLIO</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone"></i>
-            <a href="./contato.html">CONTATOS</a>
-          </li>
+          <i class="fa-solid fa-house"></i>
+          <a href="./Index.html">
+            HOME
         </ol>
-        <table border="5">
-          <!-- Cabeçalho da tabela -->
-          <thead>
-            <tr>
-
-              <th>Item</th>
-              <th>Descrição</th>
-              <th>Data de Criação</th>
-              <th>Valor</th>
-            </tr>
-          </thead>
-
-          <!-- Corpo da tabela  -->
-          <tbody>
-            <!-- Crio uma linha -->
-            <tr>
-              <!-- Crio uma coluna -->
-              <td>Jogo PixelForge: Origins</td>
-              <td rowspan="1">Primeiro título da franquia, com foco em aventura e exploração</td>
-              <td>Agosto 2026</td>
-              <td>R$250.00</td>
-
-            </tr>
-
-            <tr>
-              <!-- rowspan = diz quantas linhas ele deve ocupar -->
-              <td>Expansão PixelForge: Builders</td>
-              <td>Conteúdo adicional que permite aos jogadores criar e compartilhar mapas personalizados</td>
-              <td>Novembro 2026</td>
-              <td>R$100.00</td>
+        </a>
+        <ol>
+          <i class="fa-solid fa-gamepad"></i>
+          <a href="./Pagina2.html">
+            NOSSOS JOGOS
+        </ol>
+        </a>
+        <ol>
+          <i class="fa-solid fa-camera"></i>
+          <a href="./Pagina3.html">
+            PORTFÒLIO
+        </ol>
+        </a>
+        <ol>
+          <i class="fa-solid fa-phone"></i>
+          <a href="./contato.html">
+            CONTATOS
+        </ol>
+        </a>
+      </ul>
+    </nav>
+  </header>
 
 
+  <table border="5">
+    <!-- Cabeçalho da tabela -->
+    <thead>
+      <tr>
 
-            </tr>
+        <th>Item</th>
+        <th>Descrição</th>
+        <th>Data de Criação</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
 
-            <td>Jogo PixelForge: Legends</td>
-            <td>Continuação da saga, trazendo novos personagens e desafios em cenários épicos</td>
-            <td>Dezembro 2026</td>
-            <td>R$350.00</td>
+    <!-- Corpo da tabela  -->
+    <tbody>
+      <!-- Crio uma linha -->
+      <tr>
+        <!-- Crio uma coluna -->
+        <td>Jogo PixelForge: Origins</td>
+        <td rowspan="1">Primeiro título da franquia, com foco em aventura e exploração</td>
+        <td>Agosto 2026</td>
+        <td>R$250.00</td>
 
-            </tr>
+      </tr>
 
-          </tbody>
-        </table>
-        <ul>
-          <!-- <h2>Sobre o Jogo</h2>
-          <figure>
-            <img src="https://i.ytimg.com/vi/LbM42NxEjeo/maxresdefault.jpg" width="400px" height="300px" alt="" />
+      <tr>
+        <!-- rowspan = diz quantas linhas ele deve ocupar -->
+        <td>Expansão PixelForge: Builders</td>
+        <td>Conteúdo adicional que permite aos jogadores criar e compartilhar mapas personalizados</td>
+        <td>Novembro 2026</td>
+        <td>R$100.00</td>
 
-            <figcaption> PixelForge: Origins é um jogo indie que mergulha os jogadores em um universo vibrante de forja
-              e aventura. No papel de um mestre
-              <P>
-              </P>
-              ferreiro lendário, o jogador deve criar armas e artefatos únicos enquanto explora cenários pixelados
-              cheios de desafios e segredos.
-              <p></p>
-              A narrativa combina elementos de fantasia com mecânicas de construção e combate, oferecendo uma
-              experiência envolvente que valoriza tanto a criatividade quanto a estratégia.
-            </figcaption>
-          </figure> -->
 
-          <footer>
-            Email:....
-          </footer>
-</body>
+
+      </tr>
+
+      <td>Jogo PixelForge: Legends</td>
+      <td>Continuação da saga, trazendo novos personagens e desafios em cenários épicos</td>
+      <td>Dezembro 2026</td>
+      <td>R$350.00</td>
+
+      </tr>
+
+    </tbody>
+  </table>
+  <ul>
+
+
+
+    <footer class="footer">
+      <Div class="footer-info">
+
+        <div class="footer-item">
+          <span>E-mail</span>
+          <p>PixelForge@gmail.com</p>
+        </div>
+
+        <div class="footer-item">
+          <span>Ano</span>
+          <p>PixelForge 2026</p>
+        </div>
+
+        <div class="footer-item">
+          <span>Telefone</span>
+          <p>+55 9999-9999</p>
+        </div>
+
+    </footer>
+
+
+
+    </body>
 
 </html>
