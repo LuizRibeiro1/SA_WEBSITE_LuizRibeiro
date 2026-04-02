@@ -161,3 +161,113 @@ footer {
 
 /* PAGINA 2 */
 
+.servicos {
+  margin: 40px;
+  color: #fff;
+}
+
+.servicos h2 {
+  color: #ffd700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tabela-servicos {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  background-color: #1a1a2e; 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cabecalho {
+  font-weight: bold;
+  color: #ffd700;
+  padding: 8px;
+  border-bottom: 1px solid #444;
+}
+
+.tabela-servicos div {
+  padding: 8px;
+  border-bottom: 1px solid #333;
+}
+
+/* PAGINA 3 */
+
+.cases {
+  margin: 40px;
+  color: #fff;
+}
+
+.cases h2 {
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid-cases {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #1a1a2e; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background-color: #0f3460; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.card h3 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ddd;
+  font-size: 14px;
+}
+
+.card img{
+    height: 300px;
+    
+}
+
+/* PAGINA CONTATO */
+
+.contato {
+  background: #0d1b2a;
+  border: 2px solid #f1c40f;
+  padding: 15px;
+  width: 300px;
+  margin: auto;
+  font-family: "Pixelify Sans", sans-serif;
+  color: #fff;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border: 2px solid #f1c40f;
+  background: #1b263b;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #f1c40f;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background: #e67e22;
+}
+
